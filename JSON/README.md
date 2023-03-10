@@ -5,7 +5,7 @@
 4. Создать внешний репозиторий c названием JSON.
 5. Клонировать репозиторий JSON на локальный компьютер.
 
-__ git clone https://github.com/julia-urania/JSON.git __
+__git clone https://github.com/julia-urania/JSON.git__
 
 6. Внутри локального JSON создать файл “new.json”.
 touch JSON/new.json

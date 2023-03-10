@@ -1,6 +1,6 @@
-**Homework from the course of Vadim Ksendzov group 32**
+#**Homework from the course of Vadim Ksendzov group 32**
 
-**JSON**
+##**JSON**
 
 4. Создать внешний репозиторий c названием JSON.
 5. Клонировать репозиторий JSON на локальный компьютер.

@@ -1,20 +1,23 @@
-#**Homework from the course of Vadim Ksendzov group 32**
+# **Homework from the course of Vadim Ksendzov group 32**
 
-##**JSON**
+## **JSON**
 
 4. Создать внешний репозиторий c названием JSON.
 5. Клонировать репозиторий JSON на локальный компьютер.
 
-__git clone https://github.com/julia-urania/JSON.git__
+*git clone https://github.com/julia-urania/JSON.git*
 
 6. Внутри локального JSON создать файл “new.json”.
-touch JSON/new.json
+
+*touch JSON/new.json*
 
 7. Добавить файл под гит.
-git add new.json
+
+*git add new.json*
 
 8. Закоммитить файл.
-git commit -m "First commit"
+
+*git commit -m "First commit"*
 
 9. Отправить файл на внешний GitHub репозиторий.
 git push

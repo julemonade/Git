@@ -3,58 +3,65 @@
 
 
 ## **JSON**
-
+<details>
+  <summary>Homework with answers</summary>
 1. Создать внешний репозиторий c названием JSON.
-2. Клонировать репозиторий JSON на локальный компьютер.
 
-*git clone https://github.com/julia-urania/JSON.git*
+  2. Клонировать репозиторий JSON на локальный компьютер.
+
+```bash
+git clone https://github.com/julia-urania/JSON.git
+```
 
 3. Внутри локального JSON создать файл “new.json”.
 
-*touch JSON/new.json*
+*`touch JSON/new.json`*
 
 4. Добавить файл под гит.
 
-*git add new.json*
+*`git add new.json`*
 
 5. Закоммитить файл.
 
-*git commit -m "First commit"*
+*`git commit -m "First commit"`*
 
 6. Отправить файл на внешний GitHub репозиторий.
-git push
+*`git push`*
 
 7. Отредактировать содержание файла “new.json” - написать информацию о себе 
 (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 
-*cat >> new.json*
+*`cat >> new.json`*
 
 8. Отправить изменения на внешний репозиторий.
+```bash
+*git add new.json*
 
-*git add new.json
-git commit -m "Information about yourself"
-git push*
+*git commit -m "Information about yourself"*
+
+*git push*
+```
 
 9. Создать файл preferences.json
 
-*touch preferences.json*
+*`touch preferences.json`*
 
 10. В файл preferences.json добавить информацию о своих предпочтениях 
 (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 
-*cat >> preferences.json*
+*`cat >> preferences.json`*
 
 11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 
-*cat >> skills.json*
+*`cat >> skills.json`*
 
 12. Отправить сразу 2 файла на внешний репозиторий.
 
-*git add .*
+*`git add .`*
 
-*git commit -m "Information about preferences and skills"*
+*`git commit -m "Information about preferences and skills"`*
 
-*git push*
+*`git push`*
 
 13. На веб интерфейсе создать файл bug_report.json.
 
@@ -68,8 +75,13 @@ git push*
 
 *git pull*
 
+</details>
+
 ## 
 ## **XML**
+
+<details>
+  <summary>Homework with answers</summary>
 1. Создать внешний репозиторий c названием XML.
 
 2. Клонировать репозиторий XML на локальный компьютер.
@@ -134,8 +146,13 @@ git push*
 
 *git pull*
 
+</details>
+  
 ##
 ## **TXT**
+<details>
+  <summary>Homework with answers</summary>
+
 1. Создать внешний репозиторий c названием TXT.
 
 2. Клонировать репозиторий TXT на локальный компьютер.
@@ -199,3 +216,5 @@ git push*
 18. Синхронизировать внешний и локальный репозиторий TXT
 
 *git pull*
+
+</details>

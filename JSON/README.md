@@ -1,35 +1,33 @@
-# Git
-Homework from the course of Vadim Ksendzov group 32
+**Homework from the course of Vadim Ksendzov group 32**
 
 **JSON**
- 4. Создать внешний репозиторий c названием JSON.
 
- 5. Клонировать репозиторий JSON на локальный компьютер.
+4. Создать внешний репозиторий c названием JSON.
+5. Клонировать репозиторий JSON на локальный компьютер.
 git clone https://github.com/julia-urania/JSON.git
 
- 6. Внутри локального JSON создать файл “new.json”.
+6. Внутри локального JSON создать файл “new.json”.
 touch JSON/new.json
 
- 7. Добавить файл под гит.
-cd JSON
+7. Добавить файл под гит.
 git add new.json
 
- 8. Закоммитить файл.
+8. Закоммитить файл.
 git commit -m "First commit"
 
- 9. Отправить файл на внешний GitHub репозиторий.
+9. Отправить файл на внешний GitHub репозиторий.
 git push
 
- 10. Отредактировать содержание файла “new.json” - написать информацию о себе 
+10. Отредактировать содержание файла “new.json” - написать информацию о себе 
 (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 cat >> new.json
 
- 11. Отправить изменения на внешний репозиторий.
+11. Отправить изменения на внешний репозиторий.
 git add new.json
 git commit -m "Information about yourself"
 git push
 
- 12. Создать файл preferences.json
+12. Создать файл preferences.json
 touch preferences.json
 
  13. В файл preferences.json добавить информацию о своих предпочтениях 

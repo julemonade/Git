@@ -5,7 +5,7 @@
 ## **JSON**
 <details>
   <summary>Homework with answers</summary>
-1. Создать внешний репозиторий c названием JSON.
+  1. Создать внешний репозиторий c названием JSON.
 
   2. Клонировать репозиторий JSON на локальный компьютер.
 
@@ -15,7 +15,9 @@ git clone https://github.com/julia-urania/JSON.git
 
 3. Внутри локального JSON создать файл “new.json”.
 
-*`touch JSON/new.json`*
+```bash
+  touch JSON/new.json
+  ```
 
 4. Добавить файл под гит.
 
